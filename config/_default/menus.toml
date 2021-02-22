@@ -4,6 +4,24 @@
   identifier = "prologue"
   url = "/docs/prologue/"
 
+[[docs]]
+  name = "Electric Blocks"
+  weight = 20
+  identifier = "electric-blocks"
+  url = "/docs/electric-blocks/"
+
+[[docs]]
+  name = "EBPP"
+  weight = 30
+  identifier = "ebpp"
+  url = "/docs/ebpp/"
+
+[[docs]]
+  name = "Project"
+  weight = 40
+  identifier = "project"
+  url = "/docs/project/"
+
 [[main]]
   name = "Docs"
   url = "/docs/prologue/introduction/"
