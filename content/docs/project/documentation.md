@@ -20,7 +20,7 @@ toc: true
 
 ## Project Management
 
-* [Project Schedule](</files/Project Schedule.pdf>)
+* [Project Schedule](</files/Project Schedule.xlsx>)
 * [Design Validation Plan](</files/Design Validation Plan.pdf>)
 
 ### Presentations
