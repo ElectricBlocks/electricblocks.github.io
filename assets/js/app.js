@@ -1,6 +1,9 @@
 document.getElementById('mode').addEventListener('click', () => {
 
   document.body.classList.toggle('dark');
+  for (let element of document.getElementsByTagName('table')) {
+    element.classList.toggle('table-dark');
+  }
   localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
 
 });
@@ -8,6 +11,9 @@ document.getElementById('mode').addEventListener('click', () => {
 if (localStorage.getItem('theme') === 'dark') {
 
   document.body.classList.add('dark');
+  for (let element of document.getElementsByTagName('table')) {
+    element.classList.add('table-dark')
+  }
 
 }
 

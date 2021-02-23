@@ -340,7 +340,7 @@ To help keep things simple for end users, the client mod and the server mod are 
 
 You already saw how we synchronize data between the logical server and EBPP, but another challenge we faced in engineering this mod was synchronizing data between the logical client and the logical server. The native Minecraft networking code uses a TCP socket to synchronize data between the client and the server. We were able to easily leverage existing Minecraft code to enable the logical server to send updates to the logical client. Sending updates from the logical client to the logical server was a different story. We weren’t able to utilize native code and had to design another network communication protocol for this purpose. The protocol is defined by the table here:
 
-{{< table "table table-striped table-bordered table-dark" >}}
+{{< table "table table-bordered" >}}
 
 | Index | # Bytes | Data Type | Variable | Purpose |
 |-------|---------|-----------|----------|---------|
@@ -349,7 +349,7 @@ You already saw how we synchronize data between the logical server and EBPP, but
 | 8 - 11| 4       | int       | z        | z coord of updated TE|
 | 12    | 1       | boolean   | inService| Is TE enabled? |
 | 13 - 16| 4 | int | numInputs | # of inputs to a TE|
-| 17 - end | 8 * numInputs| double[] | inputs | Double array of TE inputs|
+| 17 - end | 8 * numInputs| double[] | inputs | Array of TE inputs|
 {{</ table >}}
 
 This protocol was necessary for sending updates from the client GUI to the server. Since the data needed to do this was highly regular, we decided to use raw bytes format for maximum speed of encoding and decoding. Any time the user opens up a GUI using the multimeter tool and submit changes, their changes are sent as a packet of raw bytes as described above. This is validated on the server side and a simulation request is performed with the new info. The results of the simulation are then distributed to all connected players. This is what makes multiplayer possible!
