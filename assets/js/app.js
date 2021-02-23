@@ -8,11 +8,11 @@ document.getElementById('mode').addEventListener('click', () => {
 
 });
 
-if (localStorage.getItem('theme') === 'dark') {
+if (localStorage.getItem('theme') != null && localStorage.getItem('theme') === 'light') {
 
-  document.body.classList.add('dark');
+  document.body.classList.remove('dark');
   for (let element of document.getElementsByTagName('table')) {
-    element.classList.add('table-dark')
+    element.classList.remove('table-dark')
   }
 
 }
