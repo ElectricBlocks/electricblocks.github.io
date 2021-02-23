@@ -32,3 +32,4 @@ Click on this tab to open it and you should see the menu for all Electric Blocks
 You can now drag the blocks from that tab into your inventory hotbar at the bottom of the menu. You can hover over the block to get the name of the block. Once the blocks are in your inventory, you can use these to build an electrical network in the Minecraft world. Here is an animated GIF showing you how you can create a very simple network consisting of an external grid, several wires, and a lamp block.
 
 <img src="../basic-network.webp" alt="Electric Blocks Creative Tab" caption="<em>Electric Blocks Creative Tab</em>" class="border-0" style="width:100%;">
+

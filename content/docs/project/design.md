@@ -341,6 +341,7 @@ To help keep things simple for end users, the client mod and the server mod are 
 You already saw how we synchronize data between the logical server and EBPP, but another challenge we faced in engineering this mod was synchronizing data between the logical client and the logical server. The native Minecraft networking code uses a TCP socket to synchronize data between the client and the server. We were able to easily leverage existing Minecraft code to enable the logical server to send updates to the logical client. Sending updates from the logical client to the logical server was a different story. We weren’t able to utilize native code and had to design another network communication protocol for this purpose. The protocol is defined by the table here:
 
 {{< table "table table-striped table-bordered table-dark" >}}
+
 | Index | # Bytes | Data Type | Variable | Purpose |
 |-------|---------|-----------|----------|---------|
 | 0 - 3 | 4       | int       | x        | x coord of updated TE|
