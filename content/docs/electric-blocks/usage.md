@@ -33,3 +33,14 @@ You can now drag the blocks from that tab into your inventory hotbar at the bott
 
 <img src="../basic-network.webp" alt="Electric Blocks Creative Tab" caption="<em>Electric Blocks Creative Tab</em>" class="border-0" style="width:100%;">
 
+## Multimeter Tool
+
+Now you've built a network, but how do you interact with it and how do you run simulations? By using the Multimeter! This item is a core part of how this mod works. First you're going to want to equip the Multimeter item from the Electric Blocks creative menu tab. This procedure is very similar to the previous section. Make sure that the item is in your hand. You can use the scrollwheel or number keys to select the item slot containing the Multimeter. Once you're weilding the Multimeter, you can perform two different operations. Left clicking on a block will toggle it on or off. Right clicking a block allows you to view and modify the block's values through a GUI.
+
+### Toggle (Left Click)
+
+All the main blocks (exlcuding wires), have a variable called `In Service` which indicates whether or not that particular block is enabled. Left clicking on the block will toggle this value to the opposite of its current state and then request a simulation with this new value. This function is kind of like flipping a light switch.
+
+Speaking of which, here is a demo showing this feature in action. At the start of this clip the lamp is turned on, but the external grid is turned off. This means the lamp isn't receiving any power. When the external grid is left clicked, it is toggled into the enabled state and the lamp now receives power. After this, we left click on the lamp again to turn it off. While the external grid is on and capable of sending power, the lamp is off and so will not utilize any power.
+
+<img src="../multimeter-toggle.webp" alt="Toggling With Multimeter" caption="<em>Toggling With Multimeter</em>" class="border-0" style="width:100%;">
