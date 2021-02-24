@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 100
+weight: 10
 toc: true
 ---
 More specifically, Electric Blocks is a Minecraft Forge mod that allows you to run realistic power flow simulations for educational and engineering purposes. This site contains documentation for using this mod.
