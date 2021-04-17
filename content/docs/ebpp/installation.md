@@ -17,7 +17,57 @@ toc: true
 
 This guide is for users who have little or no server administration experience and are trying to set things up for singleplayer use. This guide omits a lot of important information for multiplayer setups and includes a lot of unnecessary information on how to do every step on the install process. This is intended to make it as easy as possible for novices to get started. If you're an IT administrator trying to setup a multiplayer server, please navigate to the [Advanced Install](#advanced-install) guide. I'm sure you'll find it to be both more detailed and more concise.
 
-***THIS SECTION IS UNDER CONSTRUCTION***
+### Windows Install
+
+To get EBPP running on Windows, you will first need to install Docker Desktop which includes the Docker Engine and command line interface. Docker Desktop gives you an easy visual interface for managing your EBPP instance. It is technically not necessary, but will minimize the amount of time you need to spend in the command line interface. Instructions for how to do this can be found on [this page](https://docs.docker.com/docker-for-windows/install/). Please read through this documentation carefully. You will need to meet the minimum requirements for Docker to run and you will need to enable virtualization features on Windows. If you cannot get Docker running and don't have server administration experience then I would recommend that you have your company or educational institution set up a server for your to use instead.
+
+Once you have finished installing and launching Docker Desktop, you will need to build the EBPP image. Open your command prompt by hitting the Windows key and typing "cmd" into the search bar. This should open up your command prompt. Once there type in the following command:
+
+```sh
+docker build github.com/ElectricBlocks/ebpp -t ebpp
+```
+
+This will launch the build process. Once the command is finished executing, open up Docker Desktop and click on the "Images" tab on the left hand side of the navigation bar. If the build completed successfully, you should see a screen that looks something like this:
+
+{{< img src="docker-images.png" alt="Docker Desktop Images" caption="<em>Docker Desktop Images</em>" class="border-0" >}}
+
+Locate the `EBPP` image and move your mouse to the far right hand side of the row to display the options and run button:
+
+{{< img src="docker-images-run.png" alt="Docker Desktop Run Image" caption="<em>Docker Desktop Run Image</em>" class="border-0" >}}
+
+Click run and a popup window will appear for you to create a new container:
+
+{{< img src="new-container.png" alt="Docker Desktop New Container" caption="<em>Docker Desktop New Container</em>" class="border-0" >}}
+
+Click the "Optional Settings" dropdown to expand the menu. At minimum, you need to enter the host port (should usually be `1127`). You can give the container an optional name if you would like. If not, a name will be randomly generated for the container. No other values should be set:
+
+{{< img src="new-container-settings.png" alt="Docker Desktop New Container Settings" caption="<em>Docker Desktop New Container Settings</em>" class="border-0" >}}
+
+Click `Run` and a new container will be generated and you will be brought to the "Containers / Apps" panel. The EBPP container should appear in the list and should automatically start:
+
+{{< img src="docker-containers.png" alt="Docker Desktop Containers" caption="<em>Docker Desktop Containers</em>" class="border-0" >}}
+
+To verify that EBPP is working, you can click on the container name to be brought to the logs for this container. The output should say something like:
+
+```
+No arguments passed. Using defaults.
+* Serving Flask app "ebpp" (lazy loading)
+* Environment: production
+WARNING: This is a development server. Do not use it in a production deployment.
+Use a production WSGI server instead.
+* Debug mode: off
+* Running on http://0.0.0.0:1127/ (Press CTRL+C to quit)
+```
+
+At this point, EBPP should be installed and running! You can now launch your modded Minecraft game on the same computer and should be able to connect.
+
+### Mac Install
+
+Installation on a Mac is essentially the same as the Windows install except that you must use Docker Desktop for Mac. A guide for how to do this can be found on [this page](https://docs.docker.com/docker-for-mac/install/). Once you have Docker Desktop for Mac installed, follow essentially the same steps except you will need to run the build command in your Terminal instead of in the command prompt.
+
+### Linux Install
+
+Unfortunately there is no Docker Desktop for Linux that is available. I'd recommend just using the advanced install guide for this process. You're on Linux so you're used to figuring stuff out on your own anyways. Good luck.
 
 ## Advanced Install
 
