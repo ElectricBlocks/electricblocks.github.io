@@ -12,4 +12,4 @@ menu:
 weight: 30
 toc: true
 ---
-Electric Blocks is the Minecraft client/server mod that functions as the interface. This mod adds all the necessary blocks, tile entitites, guis, etc needed for power flow simulations. This mod will need to be installed on both the client and server to work properly. In single player, installing the mod on the client is equivalent to installing it on the server.
+Electric Blocks is the Minecraft client/server mod that functions as the interface for EBPP. This mod adds all the necessary blocks, tile entities, GUIs, etc. needed for power flow simulations. In multiplayer, this mod must be installed on both the client and server to work properly. In single-player, only installing the mod on the client is necessary.

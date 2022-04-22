@@ -330,7 +330,7 @@ Now that you have a good idea of how things are working, its time to complicate 
 
 {{< img src="complete-stack-design.png" alt="Complete Stack Design" caption="<em>Complete Stack Design (Click to expand)</em>" class="border-0" >}}
 
-In reality, the Electric Blocks system requires 3 pieces of software running at any ony time. Those are:
+In reality, the Electric Blocks system requires 3 pieces of software running at any one time. Those are:
 
 1. Electric Blocks Client Mod
 2. Electric Blocks Server Mod

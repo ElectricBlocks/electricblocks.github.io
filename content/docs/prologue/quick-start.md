@@ -21,7 +21,7 @@ toc: true
 
 Minecraft Java Edition is required to use this mod. If you have Minecraft installed already, you can skip this step.
 
-Otherwise go to the minecraft website and download and install it: <https://www.minecraft.net/download>
+Otherwise go to the Minecraft website and download and install it: <https://www.minecraft.net/download>
 
 After downloading the client, double-click the icon to run it.
 
@@ -35,7 +35,7 @@ Once the Forge installer is done downloading, open the file to run it. The Forge
 
 Once the Forge installer has completed, you will need to install the Electric Blocks mod. You can find an official relase on our downloads page here: <https://github.com/ElectricBlocks/electricblocks/releases>
 
-Download the file and place it in your mods folder. This will vary based on your system but it can usually be found here:
+Download the `.jar` file and place it in your mods folder. This will vary based on your system but it can usually be found here:
 
 Windows: `C:\Users\Your Username\AppData\Roaming\.minecraft`
 
@@ -45,4 +45,4 @@ Linux: `	~/.minecraft`
 
 ### 4. Launch Minecraft
 
-Now that everything is installed you can launch Minecraft. Make sure you have `Minecraft: Java Edition` selected in the Minecraft client. Before pressing `Play`, verify that `Forge 1.15.2` is selected. The option is located to the left of the `Play` button. Once selected, you can press `Play` and start using Minecraft. Once the game has fully launched and you are on the title screen, select Multiplayer. Your server administrator should have provided details for how to connect from here.
+Now that everything is installed, you can launch Minecraft. Make sure you have `Minecraft: Java Edition` selected in the Minecraft client. Before pressing `Play`, verify that `Forge 1.15.2` is selected. The option is located to the left of the `Play` button. Once selected, you can press `Play` and start using Minecraft. Once the game has fully launched and you are on the title screen, select Multiplayer. Your server administrator should have provided details for how to connect from here.
