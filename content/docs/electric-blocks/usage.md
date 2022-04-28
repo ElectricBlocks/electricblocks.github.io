@@ -1,7 +1,7 @@
 ---
 title: "Usage"
 description: "Basic usage of the Electric Blocks mod."
-lead: "Basic usage ofthe Electric Blocks mod."
+lead: "Basic usage of the Electric Blocks mod."
 date: 2021-02-22T17:27:44-08:00
 lastmod: 2021-02-22T17:27:44-08:00
 draft: false
