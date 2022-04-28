@@ -36,9 +36,12 @@ You can drag the blocks from that tab into your inventory hotbar at the bottom o
 ## Multimeter Tool
 
 Now you've built a network, but to interact with it and run simulations, you'll need a Multimeter. There are three different Multimeters - Intro, Intermediate, and Advanced - each of which display a certain amount of information for each block. The images below use the Grid block as an example.
-- Intro Multimeter: Displays the bare basics (usually just Active Power).
-- Intermediate Multimeter: Displays a little more (usually just adds Reactive Power).
-- Advanced Multimeter: Displays everything (adds Bus Voltage, and everything else).
+
+{{< img src="intro-multimeter-gui.png" alt="Intro Multimeter GUI" caption="<em>Intro Multimeter: Displays the bare basics (usually just Active Power)</em>" class="border-0" >}}
+
+{{< img src="intermediate-multimeter-gui.png" alt="Intermediate Multimeter GUI" caption="<em>Intermediate Multimeter: Displays a little more (usually just adds Reactive Power)</em>" class="border-0" >}}
+
+{{< img src="advanced-multimeter-gui.png" alt="Intro Multimeter GUI" caption="<em>Advanced Multimeter: Displays everything (adds Bus Voltage, and everything else)</em>" class="border-0" >}}
 
 Certain blocks may display more information with the Intro Multimeter depending on their function. For example, the Battery block necessarily displays Maximum Energy and Charge Percent values.
 
@@ -54,13 +57,13 @@ Below is a demo showing this feature in action. At the start of this clip the la
 
 ### Interact (Right Click)
 
-All blocks, except wires, have specific inputs and outputs such as voltage, wattage, etc. Right clicking on the block will open up the specific GUI for that block. This menu allows you to set the inputs, view the outputs, and request a simulation for the network that block is in. Here is an example of what the GUI looks like (**UPDATE ME (and show intro/intermediate/advanced GUIs)**):
+All blocks, except wires, have specific inputs and outputs such as voltage, wattage, etc. Right clicking on the block will open up the specific GUI for that block. This menu allows you to set the inputs, view the outputs, and request a simulation for the network that block is in. Here is an example of what the GUI looks like for an External Grid block:
 
-{{< img src="gui-ext-grid.png" alt="External Grid GUI" caption="<em>External Grid GUI</em>" class="border-0" >}}
+{{< img src="gui-ext-grid2.png" alt="External Grid GUI" caption="<em>External Grid GUI</em>" class="border-0" >}}
 
 Below the name of the block is a list of all the inputs and outputs for it. The inputs are at the top of the list, separated from the outputs below by a dashed line. Each entry in the input or output contains a label, a field for the numeric value, and the units of measure. At the very bottom are two buttons. The top button toggles whether or not the current block is enabled or not (the same as if you left-clicked it with the multimeter). The bottom button will submit any changes made and close the GUI. Here is an example of a different block:
 
-{{< img src="gui-lamp.png" alt="Lamp GUI" caption="<em>Lamp GUI</em>" class="border-0" >}}
+{{< img src="gui-lamp2.png" alt="Lamp GUI" caption="<em>Lamp GUI</em>" class="border-0" >}}
 
 As you can see, the specific inputs and outputs are different, but the fundamental layout is the same. Whenever you open up a GUI, you can close it by either hitting your escape key (`ESC`) or by clicking the `Done` button. If you press escape, any changes you made will be discarded and no simulation updates will occur. If you hit the Done button, a simulation will only occur if you made changes to the inputs or the `In Service` status. The text of the bottom button will change depending on whether or not a change was made. Here is a demonstration of GUIs in action:
 
