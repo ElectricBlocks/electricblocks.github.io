@@ -43,6 +43,12 @@ Mac: `/Users/Your Username/Library/Application Support/minecraft`
 
 Linux: `	~/.minecraft`
 
+### 3.5. Install HWYLA
+
+Electric Blocks **requires** the mod "Here's What You're Looking At" to run. A download link can be found here: <https://curseforge.com/minecraft/mc-mods/hwyla/files/2880069>
+
+Download the `.jar` file (it should be something along the lines of `Hwyla-forge-1.10.8-B72_1.15.2.jar`) and place it in your mods folder, as in step 3.
+
 ### 4. Launch Minecraft
 
 Now that everything is installed, you can launch Minecraft. Make sure you have `Minecraft: Java Edition` selected in the Minecraft client. Before pressing `Play`, verify that `Forge 1.15.2` is selected. The option is located to the left of the `Play` button. Once selected, you can press `Play` and start using Minecraft. Once the game has fully launched and you are on the title screen, select Multiplayer. Your server administrator should have provided details for how to connect from here.
