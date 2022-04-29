@@ -33,7 +33,7 @@ Once the Forge installer is done downloading, open the file to run it. The Forge
 
 ### 3. Install Electric Blocks
 
-Once the Forge installer has completed, you will need to install the Electric Blocks mod. You can find an official relase on our downloads page here: <https://github.com/ElectricBlocks/electricblocks/releases>
+Once the Forge installer has completed, you will need to install the Electric Blocks mod. You can find an official release on our downloads page here: <https://github.com/ElectricBlocks/electricblocks/releases>
 
 Download the `.jar` file and place it in your mods folder. This will vary based on your system but it can usually be found here:
 
