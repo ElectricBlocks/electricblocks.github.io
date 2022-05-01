@@ -1,4 +1,4 @@
-This is the repository for the Electric Blocks Doks website. For posterity and to help future teams, the original boilerplate Doks readme is below.
+This is the repository for the Electric Blocks Doks website (electricblocks.github.io). For posterity and to help future teams, the original boilerplate Doks readme is below.
 
 <p align="center">
   <a href="https://getdoks.org/">
