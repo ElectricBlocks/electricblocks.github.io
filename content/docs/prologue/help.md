@@ -19,9 +19,9 @@ toc: true
 
 Electric Blocks is a Minecraft mod designed to aid in power engineering research and instruction. This mod simplifies the process of constructing an electrical network and running a power flow study on it. If you don't know what that means, this mod might not be for you. This mod only minimally supplements normal Minecraft gameplay - it's mostly an academic tool. If you want to find out more about the mod, we recommend that you read the [Project](/docs/project/overview/) section to find out why we made this mod and how it works.
 
-### The Electric Blocks mod fails to load when I launch Minecraft and the error says something about "IComponentProvider"!
+### The Electric Blocks mod fails to load when I launch Minecraft, and the error says something about "IComponentProvider"!
 
-You don't have HWYLA installed. See step 3.5 in the [Quick-Start](/docs/prologue/quick-start/) section.
+You don't have HWYLA installed. See step 4 in the [Quick-Start](/docs/prologue/quick-start/) section.
 
 ### How do I fix the error "ElectricBlocks could not connect to simulation server!"?
 

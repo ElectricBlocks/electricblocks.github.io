@@ -7,4 +7,4 @@ draft: false
 images: []
 ---
 
-The Electric Blocks contributors.
+The Electric Blocks contributors for the 2020-2021 UI Capstone year.
