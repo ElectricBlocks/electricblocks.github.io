@@ -15,7 +15,7 @@ toc: true
 
 ## Normal Installation
 
-{{< alert icon="💡" text="This guide only applies if you're connecting to a multiplayer server hosted by someone else. For single-player or multiplayer setup, please review the entire installation guide." >}}
+{{< alert icon="💡" text="For full single-player and multiplayer installation, please review the Singleplayer Installation and EBPP Installation pages." >}}
 
 ### 1. Install Minecraft
 
@@ -27,7 +27,7 @@ After downloading the client, double-click the icon to run it.
 
 ### 2. Install Forge
 
-Once Minecraft is finished installing, make sure all Minecraft windows are closed. Then go to the Forge website and download the recommended installer here: <http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.15.2.html>
+Once Minecraft is finished installing, make sure all Minecraft windows are closed. Then go to the Forge website and download the recommended 1.15.2 installer here: <http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.15.2.html>
 
 Once the Forge installer is done downloading, open the file to run it. The Forge installer will pop up. Make sure that the `Install client` button is selected. Click `OK` and the installer will start installation.
 
@@ -43,12 +43,18 @@ Mac: `/Users/Your Username/Library/Application Support/minecraft`
 
 Linux: `	~/.minecraft`
 
-### 3.5. Install HWYLA
+### 4. Install HWYLA
 
-Electric Blocks **requires** the mod "Here's What You're Looking At" to run. A download link can be found here: <https://curseforge.com/minecraft/mc-mods/hwyla/files/2880069>
+Electric Blocks **requires** the mod "Here's What You're Looking At" to run. A download link for Minecraft 1.15.2 can be found here: <https://curseforge.com/minecraft/mc-mods/hwyla/files/2880069>
 
 Download the `.jar` file (it should be something along the lines of `Hwyla-forge-1.10.8-B72_1.15.2.jar`) and place it in your mods folder, as in step 3.
 
-### 4. Launch Minecraft
+### 5. (Single-player) Install and Launch EBPP
 
-Now that everything is installed, you can launch Minecraft. Make sure you have `Minecraft: Java Edition` selected in the Minecraft client. Before pressing `Play`, verify that `Forge 1.15.2` is selected. The option is located to the left of the `Play` button. Once selected, you can press `Play` and start using Minecraft. Once the game has fully launched and you are on the title screen, select Multiplayer. Your server administrator should have provided details for how to connect from here.
+The Electric Blocks mod requires a connection to the EB simulation server software, EBPP. If you're installing and using Electric Blocks exclusively on your local machine in single-player mode, you'll need to go to the [Single-player Installation](/docs/electric-blocks/singleplayer-installation/) page and follow the extra instructions there.
+
+### 6. Launch Minecraft
+
+Now that everything is installed, you can launch Minecraft. Make sure you have `Minecraft: Java Edition` selected in the Minecraft client. Before pressing `Play`, verify that `Forge 1.15.2` is selected. The option is located to the left of the `Play` button. Once selected, you can press `Play` and start using Minecraft. If you're a student or otherwise have a multiplayer server set up for you by an institution, select Multiplayer. Your server administrator should have provided details for how to connect from here.
+
+
