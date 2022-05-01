@@ -1,3 +1,5 @@
+This is the repository for the Electric Blocks Doks website. For posterity and to help future teams, the original boilerplate Doks readme is below.
+
 <p align="center">
   <a href="https://getdoks.org/">
     <img alt="Doks" src="https://doks.netlify.app/doks.svg" width="60">
