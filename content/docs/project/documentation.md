@@ -16,9 +16,9 @@ toc: true
 ## 2021-2022 Team Documentation
 
 * [Handoff Document (2022-23 team, read me!)](</files/2122Handoff.pdf>)
-* [Expo Poster](</files/2122ExpoPoster.pdf>)
+* [Expo Poster](</files/2122Expo Poster.pdf>)
 * [Expo Technical Presentation](</files/2122TechnicalPresentation.pdf>)
-* [Expo Technical Presentation Script](</files/2122ExpoTechnicalPresentationScript.pdf>)
+* [Expo Technical Presentation Script](</files/2122ExpoTechnicalPresentationScipt.pdf>)
 * [Expo Video Demonstration](<https://youtube.com/watch?v=DrjvECYgwz0>)
 
 ## 2020-2021 Team Documentation
